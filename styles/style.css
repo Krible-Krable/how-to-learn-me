@@ -1,0 +1,139 @@
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.logo {
+    width: 183px;
+    height: 32px;
+}
+
+/*-------------HEADER--------------*/
+
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    /* выше установили ограничения для секции */
+    background-color: #f2f2f2;
+    padding-left: 64px;
+    position: relative;
+    display: flex;
+}
+
+.logo__place_header {
+    position: absolute;
+    margin-top: 30px;
+}
+
+.header__title {
+    width: 730px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    align-self: center;
+    z-index: 2;
+}
+
+.header__subtite {
+    width: 388px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    bottom: 30px;
+    z-index: 2;
+}
+
+.header__link {
+    color: #2f80ed;
+    text-decoration: none;
+}
+
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+    background: #2f80ed;
+    position: absolute;
+    top: 64px;
+    right: 0;
+}
+
+.header__main-illustration {
+    width: 765px;
+    height: 608px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+/* --------------DESCRIPTION----------------*/
+
+.description {
+    display: flex;
+    min-height: 340px;
+    padding-top: 100px;
+    justify-content: center;
+    margin: 0;
+}
+
+.two-columns__description { 
+   /* min-width: 784px;*/
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-columns__brief {
+    color: #2f80ed;
+    min-width: 175px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.two-columns__main-text {
+    min-width: 784px;
+}
+
+.two-columns__paragraph:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.two-columns__paragraph{
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 0 0 0 74px;
+    margin: 0;
+}
+
+.two-columns__span-accent {
+    font-weight: bold;
+    line-height: 34px;
+    font-size: 24px;
+}
+
+
+
+/*-------------------DIGITS---------------- */
+
+
+
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+}
+
