@@ -156,9 +156,11 @@
 .table {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1100px;
     margin: 0;
+
+    padding-inline-start: 0;
 }
 
 .table__cell {
@@ -195,18 +197,19 @@
     background-color: #f2f2f2;
     background-image: url('../images/feinman.png');
     background-repeat: no-repeat;
-    background-position-y: 153px;
+    background-position-y: 253px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
+    box-sizing: content-box;
 }
 
 .feinman__title {
     line-height: 1.15;
     font-size: 120px;
     font-weight: bolder;
-    padding-top: 100px;
     width: 648px;
     margin: 0;
     text-align: center; 
@@ -292,12 +295,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 60px 0 40px;
 }
 
 .footer__columns {
     color: white;
     width: 90%;
-    margin: 60px 0 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -325,6 +328,12 @@
 .footer__column_content_info {
     display: flex;
     flex-direction: column;
+}
+
+.navigation__footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .footer__column_heading {
