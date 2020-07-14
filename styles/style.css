@@ -270,6 +270,7 @@
     position: absolute;
     z-index: 1;
     right: -210px;
+    top: 0;
 }
 
 .table__theme_dark {
@@ -365,5 +366,5 @@
 .footer__social_icon {
     width: 16px;
     height: 16px;
-    margin: 0 10px 0 0;
+    margin-right: 10px;
 }
