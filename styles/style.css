@@ -18,11 +18,11 @@
     text-decoration: none;
 }
 
-.table__cell_theme_dark {
+/*.table__cell_theme_dark {
     outline-width: 1px;
     outline-style: solid;
     outline-color: red;
-}
+}*/
 
 /*-------------HEADER--------------*/
 
@@ -289,6 +289,104 @@
     margin: 0 0 80px;
 }
 
-.table__heading_theme_dark {
+
+/*------------- FOOTER ----------------*/
+
+.footer {
+    background-color: #1f1f1f;
+    min-height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
+
+}
+
+.footer__columns {
     color: white;
+    width: 90%;
+    margin: 60px 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
+}
+
+.footer__column_content_copyright {
+    display: flex;
+    flex-basis: 711px;
+    flex-direction: column;
+    justify-content: space-between;
+
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
+}
+
+.logo__place_footer {
+    height: 35px;
+    padding: 0;
+}
+
+.footer__author {
+    padding: 18px 0 18px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer__column_content_info {
+    display: flex;
+    flex-direction: column;
+
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
+}
+
+
+
+.footer__column_heading {
+    line-height: 30px;
+    font-size: 18px;
+    margin: 0 0 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
+}
+
+.footer__column_content_social {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__column_links {
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer__column_links:last-child {
+    margin-bottom: 16px;
+}
+
+.footer__social_icon {
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0;
+
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
 }
