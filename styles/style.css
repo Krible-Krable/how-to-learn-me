@@ -18,6 +18,9 @@
     text-decoration: none;
 }
 
+.link:hover {
+    color:  rgb(69, 160, 245);
+}
 
 /*-------------HEADER--------------*/
 
