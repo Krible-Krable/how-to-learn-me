@@ -18,9 +18,6 @@
     text-decoration: none;
 }
 
-.link:hover {
-    color:  rgb(69, 160, 245);
-}
 
 /*-------------HEADER--------------*/
 
@@ -63,6 +60,9 @@
 .header__link {
     color: #2f80ed; 
 }
+.header__link:hover {
+    color:  rgb(69, 160, 245);
+}
 
 .header__square-pic {
     height: 568px;
@@ -92,7 +92,7 @@
     margin: 0;
 }
 
-.two-columns__description { 
+.two-columns { 
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -236,6 +236,10 @@
     position: absolute;
 }
 
+.feinman__link:hover {
+    color:  rgb(69, 160, 245);
+}
+
 
 /*------------- KAUFMAN -----------------------------*/
 
@@ -334,24 +338,33 @@
 }
 
 .footer__column-links {
-    list-style: none;
     margin: 0;
     padding: 0;
 }
+
+.footer__list-item {
+    list-style: none;
+}
+
+.footer__list-item:last-child{
+    margin-bottom: 16px;
+} 
 
 .footer__column-link {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    list-style: none;
+    color: white;
+    text-decoration: none;
 }
 
-.footer__column-link:last-child{
-    margin-bottom: 16px;
-} 
+.footer__column-link:hover {
+    color:  rgb(69, 160, 245);
+}
 
-.link_theme_dark {
-    color: white;
+.footer__column-social-list {
+    padding-inline-start: 0px;
+    margin: 0px;
 }
 
 .footer__column-heading {
