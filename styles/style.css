@@ -148,14 +148,22 @@
     outline:1px;
     outline-color: #ed2f3f;
     outline-style: solid;
-} */
+} 
 
 .techniques {
     margin: 100px;
-    width: 80%;
+    min-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.techniques__section-title {
+
+}
+
+.techniques__section-subtitle {
+
 }
 
 .cards {
