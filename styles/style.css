@@ -195,7 +195,7 @@
   height: 160px;
   width: 160px;
   border-radius: 50%;
-  background-size: contain;
+  object-fit: contain;
   margin: 0 40px 43px;
 }
 
@@ -496,6 +496,17 @@
 
 /*---------- RESOURCES --------------*/
 
+.resources {
+
+}
+
+.resources__section-title {
+
+}
+
+.resources__section-subtitle {
+    
+}
 
 /*------------- FOOTER ----------------*/
 
