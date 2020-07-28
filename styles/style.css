@@ -451,13 +451,27 @@
     align-items: center;
     background-color: #1f1f1f;
     position: relative;
-    overflow: hidden;
-    background-image: url('../images/triangle.svg');
+    overflow: hidden; 
+    /* background-image: url('../images/triangle.svg');
     background-repeat: no-repeat;  
     background-position-x: calc(100% + 210px); 
-    background-size: 877px; 
+    background-size: 877px;  */
 }
 
+
+.kaufman__triangle { 
+    background-image: url('../images/triangle.svg');
+    background-size: 877px; 
+    background-repeat: no-repeat;  
+    background-position-x: -100px;
+    background-position-y: 100px;
+    height: 877px; 
+    width: 877px; 
+    position: absolute; 
+    right: -290px;
+    top: -100px;
+    z-index: 0; 
+}  
 
 .section-title_theme_dark {
     text-align: center;
@@ -497,15 +511,27 @@
 /*---------- RESOURCES --------------*/
 
 .resources {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.resources__section-title {
-
+.resources__section-subtitle.section-subtitle {
+    margin-bottom: 80px;
 }
 
-.resources__section-subtitle {
-    
+.resources__logo-zone {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-bottom: 217px;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resources__logo {
+    height: 38px;
+    width: 270px;
 }
 
 /*------------- FOOTER ----------------*/
