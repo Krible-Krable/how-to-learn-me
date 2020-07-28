@@ -29,6 +29,12 @@
 
 .link {
     text-decoration: none;
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+}
+
+.link:hover {
+    opacity: 0.5;
 }
 
 
@@ -73,9 +79,6 @@
 
 .header__link {
     color: #2f80ed; 
-}
-.header__link:hover {
-    color:  rgb(69, 160, 245);
 }
 
 .header__square-pic {
@@ -200,8 +203,8 @@
 }
 
 .cards__title {
-    margin-block-end: 0;
-    margin-block-start: 0;
+    /* margin-block-end: 0;
+    margin-block-start: 0; */
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
@@ -296,10 +299,6 @@
     right: 48px;
     top: 50%;
     position: absolute;
-}
-
-.feinman__link:hover {
-    color:  rgb(69, 160, 245);
 }
 
 
@@ -436,11 +435,9 @@
     font-size: 32px;
     font-weight: normal;
     color: #2f80ed; 
+    align-self: flex-start;
 }
 
-.khan__buy-link:hover {
-    color:  rgb(69, 160, 245);
-}
 
 
 /*------------- KAUFMAN -----------------------------*/
@@ -597,10 +594,6 @@
     font-size: 18px;
     font-weight: normal;
     color: white;
-}
-
-.footer__column-link:hover {
-    color:  rgb(69, 160, 245);
 }
 
 .footer__column-social-list {
