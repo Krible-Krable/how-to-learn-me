@@ -37,11 +37,11 @@
     opacity: 0.5;
 }
 
-/* *{
+*{
     outline:1px;
     outline-color: #ed2f3f;
     outline-style: solid;
-}  */
+} 
 
 
 /*-------------HEADER--------------*/
@@ -218,7 +218,8 @@
     align-items: center;
 }
 
-.section-subtitle.video__section-subtitle {
+/* .section-subtitle */
+.video__section-subtitle[class]{
     margin-bottom: 50px;
 }
 
@@ -500,9 +501,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
 }
 
-.resources__section-subtitle.section-subtitle {
+.resources__section-subtitle[class] {
     margin-bottom: 80px;
 }
 

@@ -1,0 +1,5 @@
+.video__frames {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
